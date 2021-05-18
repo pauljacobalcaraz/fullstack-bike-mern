@@ -57,21 +57,23 @@ class LoginForm extends React.Component {
 				if (res.data.error) {
 					alert(res.data.error);
 				} else {
-					axios.post('http://localhost:8080/log', log).then((res) => {
-						this.setState({
-							redirect: true,
-							login: log,
-						});
-						if (this.state.user.role === 'Staff') {
+					axios
+						.post('https://bikeshop-backend.herokuapp.com/log', log)
+						.then((res) => {
 							this.setState({
-								LogRole: this.state.redirect && <Redirect to='/staff-bike' />,
+								redirect: true,
+								login: log,
 							});
-							// return;
-						}
-						this.setState({
-							LogRole: this.state.redirect && <Redirect to='/admin-bike/' />,
+							if (this.state.user.role === 'Staff') {
+								this.setState({
+									LogRole: this.state.redirect && <Redirect to='/staff-bike' />,
+								});
+								// return;
+							}
+							this.setState({
+								LogRole: this.state.redirect && <Redirect to='/admin-bike/' />,
+							});
 						});
-					});
 				}
 			});
 	};
