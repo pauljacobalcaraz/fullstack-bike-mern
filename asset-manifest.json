@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fullstack-bike-mern/static/css/main.47fabf5f.chunk.css",
-    "main.js": "/fullstack-bike-mern/static/js/main.1a4d6336.chunk.js",
-    "main.js.map": "/fullstack-bike-mern/static/js/main.1a4d6336.chunk.js.map",
+    "main.js": "/fullstack-bike-mern/static/js/main.0b1b133d.chunk.js",
+    "main.js.map": "/fullstack-bike-mern/static/js/main.0b1b133d.chunk.js.map",
     "runtime-main.js": "/fullstack-bike-mern/static/js/runtime-main.7509b56b.js",
     "runtime-main.js.map": "/fullstack-bike-mern/static/js/runtime-main.7509b56b.js.map",
     "static/css/2.150d169a.chunk.css": "/fullstack-bike-mern/static/css/2.150d169a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.a1d95634.chunk.js",
     "static/css/main.47fabf5f.chunk.css",
-    "static/js/main.1a4d6336.chunk.js"
+    "static/js/main.0b1b133d.chunk.js"
   ]
 }
